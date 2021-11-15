@@ -1,0 +1,45 @@
+module.exports = {
+  // HTTP Status Codes
+  OK: 200,
+  CREATED: 201,
+  ACCEPTED: 202,
+  MOVED_PERMANENTLY: 301,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  PAYMENT_REQUIRED: 402,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  METHOD_NOT_ALLOWED: 405,
+  PROXY_AUTHENTICATION_REQUIRED: 407,
+  CONFLICT: 409,
+  PRECONDITION_FAILED: 412,
+  REQUEST_TOO_LONG: 413,
+  REQUEST_URI_TOO_LONG: 414,
+  UNPROCESSABLE_ENTITY: 422,
+  TOO_MANY_REQUESTS: 429,
+  INTERNAL_SERVER_ERROR: 500,
+  NOT_IMPLEMENTED: 501,
+  BAD_GATEWAY: 502,
+  SERVICE_UNAVAILABLE: 503,
+  GATEWAY_TIMEOUT: 504,
+
+  // Static Values
+  AUTH_ROLES: ["User", "Admin"],
+  LOGGED_IN: ["User", "Admin"],
+  USER_STATUS: ["Active", "Deactive"],
+  ADMIN: "Admin",
+
+  // Messages
+  UNAUTHORIZE_ERROR:
+    "Unauthorize! you are not allowed to perform this operation",
+  FORBIDDEN_ERROR: "Forbidden! you are not allowed to perform this operation ",
+  VALIDATION_ERROR: "Validation Error! Please check your inputs",
+  DUPLICATE_ERROR: "Duplication Error! Record is already present in the table",
+  RECORD_CREATED: "Record created successfully ",
+  RECORD_UPDATED: "Record updated successfully ",
+  RECORD_DELETED: "Record deleted successfully ",
+  RECORDS_FOUND: "Records fetched successfully",
+  NO_RECORD: "No record found for given ID",
+  NO_RECORD_FOUND: "No Records are fetched.Table might be empty!",
+  RECORD_NOT_EXIST: "Record with that ID does not exist!",
+};
